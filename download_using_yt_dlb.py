@@ -5,7 +5,7 @@ import yt_dlp
 
 ffmpeg_path = r"C:\ffmpeg-master-latest-win64-gpl-shared\bin"  # Replace with your FFmpeg path
 os.environ["PATH"] = ffmpeg_path + os.pathsep + os.environ["PATH"]
-BASE_PATH = "G:\\downloads"
+BASE_PATH = "G:\\downloads\\Singers"
 
 
 def download_audio(url, folder_name):
@@ -67,8 +67,8 @@ def download_audio(url, folder_name):
             print(f"Failed to process URL due to an error: {e}")
 
 
-playlist_or_song_url = "https://music.youtube.com/playlist?list=PLmfcCDSUSykbCreWECyLwGcQoHrQGlSfS"
-folder_name = "Punjabi Hit2"
+playlist_or_song_url = "https://music.youtube.com/playlist?list=PLxMK1Yp_fNYNu6g4wjXDpwah_Qd0MwfWW&si=TEwSgF-OD9eQJudx"
+folder_name = "Amrinder Gill"
 # Example usage
 download_audio(
     playlist_or_song_url,
